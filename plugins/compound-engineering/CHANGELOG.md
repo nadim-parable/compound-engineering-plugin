@@ -5,6 +5,13 @@ All notable changes to the compound-engineering plugin will be documented in thi
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.12.0] - 2025-12-15
+
+### Added
+
+- **`spectacles` skill** - Load domain context from Spectacles specs before working on tasks. Provides structured access to global specs (constraints), domain specs (conventions), and work specs (requirements). Enables spec-as-code workflow integration.
+- **`/workflows:spectacles-work` command** - Complete 6-phase workflow for working on Spectacles work items: (1) Load context, (2) Plan with research, (3) Execute systematically, (4) Multi-agent review, (5) Capture learnings and promote patterns to specs, (6) Wrap up. Integrates Spectacles (context) with Compound Engineering (execution).
+
 ## [2.11.0] - 2025-12-10
 
 ### Changed

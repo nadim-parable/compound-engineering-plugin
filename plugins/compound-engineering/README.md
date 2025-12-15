@@ -77,6 +77,7 @@ Core workflow commands use `workflows:` prefix to avoid collisions with built-in
 | `/workflows:review` | Run comprehensive code reviews |
 | `/workflows:work` | Execute work items systematically |
 | `/workflows:compound` | Document solved problems to compound team knowledge |
+| `/workflows:spectacles-work` | Work on Spectacles items with full workflow integration |
 
 ### Utility Commands
 
@@ -113,6 +114,7 @@ Core workflow commands use `workflows:` prefix to avoid collisions with built-in
 | `dspy-ruby` | Build type-safe LLM applications with DSPy.rb |
 | `frontend-design` | Create production-grade frontend interfaces |
 | `skill-creator` | Guide for creating effective Claude Code skills |
+| `spectacles` | Load domain context from Spectacles specs before working |
 
 ### Content & Workflow
 
