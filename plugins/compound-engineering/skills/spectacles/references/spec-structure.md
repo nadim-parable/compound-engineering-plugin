@@ -175,3 +175,4 @@ ai_context:
 ```
 
 This is how Spectacles ensures deterministic context loading - you don't search for relevant specs, the system tells you exactly what to load.
+

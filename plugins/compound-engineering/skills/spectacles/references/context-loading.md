@@ -131,3 +131,4 @@ When you solve a non-trivial problem, evaluate if it should become a domain conv
 ```
 
 This closes the feedback loop: solutions become constraints that prevent future issues.
+

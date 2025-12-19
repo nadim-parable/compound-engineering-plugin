@@ -2,6 +2,10 @@
 
 This repository is a Claude Code plugin marketplace that distributes the `compound-engineering` plugin to developers building with AI-powered tools.
 
+## Configuration
+
+project_tracker: linear
+
 ## Repository Structure
 
 ```

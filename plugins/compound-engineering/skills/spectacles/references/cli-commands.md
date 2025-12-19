@@ -156,3 +156,4 @@ Spectacles automatically finds the project root by searching upward for a `.spec
 # In a script
 spectacles index --project-root /path/to/project
 ```
+

@@ -20,6 +20,36 @@ Transform feature descriptions, bug reports, or improvement ideas into well-stru
 
 Do not proceed until you have a clear feature description from the user.
 
+## Spectacles Context Loading (Optional)
+
+If you're working with Spectacles and have a work item ID, load domain context first:
+
+**Use the spectacles skill to load context:**
+
+```bash
+skill: spectacles
+```
+
+Run the context command:
+```bash
+spectacles context <work_id>
+```
+
+**Read ALL files listed under "Specs:"** before proceeding:
+- **Global specs** = hard constraints that apply everywhere
+- **Domain specs** = conventions and invariants for this bounded context
+- **Work spec** = the specific requirements for this task
+
+<context_checklist>
+Before proceeding, confirm you have:
+- [ ] Read all global specs and noted the constraints
+- [ ] Read all domain specs and noted the conventions/pitfalls
+- [ ] Read the work spec and understood requirements AND non-goals
+- [ ] Inspected key files in the code paths
+</context_checklist>
+
+---
+
 ## Main Tasks
 
 ### 1. Repository Research & Context Gathering
